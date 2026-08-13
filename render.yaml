@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: whatsapp-worker
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: API_TOKEN
+        value: super_secret_token_123
+      - key: PHP_API_URL
+        value: https://siteadresiniz.com/api/auth_store.php
