@@ -1,17 +1,14 @@
 {
-  "name": "whatsapp-worker",
+  "name": "whatsapp-qr-bridge",
   "version": "1.0.0",
-  "description": "Node.js WhatsApp Worker Service",
+  "description": "Dogrudan QR Kodlu WhatsApp Web (Baileys) Koprusu - Meta API gerektirmez",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
-    "axios": "^1.6.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.1",
-    "express": "^4.18.2",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "pino": "^8.19.0",
     "qrcode": "^1.5.3"
   }
 }
